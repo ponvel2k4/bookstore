@@ -16,6 +16,7 @@ This is a Book store application with REST API endpoints exposed for performing 
 ## Considerations
 
 1. H2 In-memory database can be accessed via the url - http://localhost:8080/h2-ui with below credentials.
+
    JDBC URL - jdbc:h2:mem:bookdb
    Username - sa
 2. Swagger console is available via url - http://localhost:8080/swagger-ui/index.html
