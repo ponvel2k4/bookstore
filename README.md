@@ -24,11 +24,17 @@ This is a Book store application with REST API endpoints exposed for performing 
 3. For Checkout Operation, 
     a. User can specify the quantity along with bookid to be checked out.
 	b. If a promotion code is provided in checkout request, discounts will be applied as per the classification provided below.
+	
 	   For Comic books - No discounts applicable
+	   
 	   For Science books - 3 %
+	   
 	   For Fiction books - 10 %
+	   
 	   For Maths books - 15 %
+	   
 	   For all other classifications - No discounts applicable
+	   
     c. If there is no promotion code given in checkout request, no discounts will be applied.
 	
 ## Running the Application using Maven
