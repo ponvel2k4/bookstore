@@ -34,17 +34,21 @@ This is a Book store application with REST API endpoints exposed for performing 
 ## Running the Application using Maven
 
 1. To build the application using maven, run the command,
+
    **mvn clean install**
    
 2. Navigate to the target folder under project root directory and execute below command to start the application
+
    **java -jar bookstore-0.0.1-SNAPSHOT.jar**
 
 ## Running the Application using Docker
 
 1. In project root directory, execute the below command, which will create a docker image for the application
+
    **mvn spring-boot:build-image**
    
 2. Once the above command is successful, execute the below command to spawn a container from the created image
+
    **docker run -p 8080:8080 bookstore:0.0.1-SNAPSHOT**
  
 ## Endpoints
